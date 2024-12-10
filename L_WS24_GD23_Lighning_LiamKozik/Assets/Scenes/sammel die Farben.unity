@@ -134,7 +134,12 @@ PrefabInstance:
     - target: {fileID: 4544264153437171614, guid: dde69c1a2c5395a4799847e97980143b,
         type: 3}
       propertyPath: m_Name
-      value: Circle (1)
+      value: Circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544264153437171614, guid: dde69c1a2c5395a4799847e97980143b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 5878233705992563025, guid: dde69c1a2c5395a4799847e97980143b,
         type: 3}
@@ -544,7 +549,12 @@ PrefabInstance:
     - target: {fileID: 4544264153437171614, guid: dde69c1a2c5395a4799847e97980143b,
         type: 3}
       propertyPath: m_Name
-      value: Circle (2)
+      value: Circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544264153437171614, guid: dde69c1a2c5395a4799847e97980143b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 5878233705992563025, guid: dde69c1a2c5395a4799847e97980143b,
         type: 3}
@@ -634,6 +644,11 @@ PrefabInstance:
     - target: {fileID: 4544264153437171614, guid: dde69c1a2c5395a4799847e97980143b,
         type: 3}
       propertyPath: m_Name
+      value: Circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544264153437171614, guid: dde69c1a2c5395a4799847e97980143b,
+        type: 3}
+      propertyPath: m_TagString
       value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 5878233705992563025, guid: dde69c1a2c5395a4799847e97980143b,

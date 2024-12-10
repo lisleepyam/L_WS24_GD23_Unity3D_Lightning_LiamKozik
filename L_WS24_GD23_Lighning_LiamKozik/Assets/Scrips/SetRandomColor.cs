@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class SetRandomColor : MonoBehaviour
 {
+    private SammeldieFarben SammeldieFarben;
+    private void Awake()
+    {
+        SammeldieFarben = GameObject.Find("Logic").GetComponent<SammeldieFarben>();
+    }
     private void Start()
     {
 
@@ -12,6 +17,8 @@ public class SetRandomColor : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        print(GetComponent<MeshRenderer>().material.color);
+        SammeldieFarben.AddColorToList(GetComponent<MeshRenderer>().material.color);
+        //Logicprint(GetComponent<MeshRenderer>().material.color);
+        Destroy(gameObject);
     }
 }
